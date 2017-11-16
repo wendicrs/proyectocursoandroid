@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.wen.proyectoandroidsabado.MainRegistroActivity">
+    <TextView
+        android:text="@string/titulo_secundario"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Codigo: "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/et_codigo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:text="Modelo: " />
+
+        <EditText
+            android:id="@+id/et_modelo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Cantidad: "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"/>
+        <EditText
+            android:id="@+id/et_cantidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Marca: "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"/>
+        <EditText
+            android:id="@+id/et_marca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Precio: "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"/>
+        <EditText
+            android:id="@+id/et_precio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_marginTop="10dp"
+        android:text="guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_volvermp"
+        android:onClick="volvermenu"
+        android:layout_marginTop="10dp"
+        android:text="volver al menu principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

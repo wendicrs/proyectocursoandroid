@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProyectoAndroidSabado</string>
+    <string name="titulo_principal">COMPUTERS STORE</string>
+    <string name="titulo_secundario">REGISTRAR COMPRA</string>
+</resources>
